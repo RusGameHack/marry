@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-BlackItalic.eot");
+  src: local("Kazimir Black Italic"), local("Kazimir-BlackItalic"),
+    url("../fonts/Kazimir-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Kazimir-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Kazimir-BlackItalic.woff") format("woff"),
+    url("../fonts/Kazimir-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-BoldItalic.eot");
+  src: local("Kazimir Bold Italic"), local("Kazimir-BoldItalic"),
+    url("../fonts/Kazimir-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Kazimir-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Kazimir-BoldItalic.woff") format("woff"),
+    url("../fonts/Kazimir-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-Black.eot");
+  src: local("Kazimir Black"), local("Kazimir-Black"),
+    url("../fonts/Kazimir-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Kazimir-Black.woff2") format("woff2"),
+    url("../fonts/Kazimir-Black.woff") format("woff"),
+    url("../fonts/Kazimir-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-MediumItalic.eot");
+  src: local("Kazimir Medium Italic"), local("Kazimir-MediumItalic"),
+    url("../fonts/Kazimir-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Kazimir-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Kazimir-MediumItalic.woff") format("woff"),
+    url("../fonts/Kazimir-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-Light.eot");
+  src: local("Kazimir Light"), local("Kazimir-Light"),
+    url("../fonts/Kazimir-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Kazimir-Light.woff2") format("woff2"),
+    url("../fonts/Kazimir-Light.woff") format("woff"),
+    url("../fonts/Kazimir-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-Italic.eot");
+  src: local("Kazimir Italic"), local("Kazimir-Italic"),
+    url("../fonts/Kazimir-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Kazimir-Italic.woff2") format("woff2"),
+    url("../fonts/Kazimir-Italic.woff") format("woff"),
+    url("../fonts/Kazimir-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-Regular.eot");
+  src: local("Kazimir Regular"), local("Kazimir-Regular"),
+    url("../fonts/Kazimir-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Kazimir-Regular.woff2") format("woff2"),
+    url("../fonts/Kazimir-Regular.woff") format("woff"),
+    url("../fonts/Kazimir-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-Medium.eot");
+  src: local("Kazimir Medium"), local("Kazimir-Medium"),
+    url("../fonts/Kazimir-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Kazimir-Medium.woff2") format("woff2"),
+    url("../fonts/Kazimir-Medium.woff") format("woff"),
+    url("../fonts/Kazimir-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-LightItalic.eot");
+  src: local("Kazimir Light Italic"), local("Kazimir-LightItalic"),
+    url("../fonts/Kazimir-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Kazimir-LightItalic.woff2") format("woff2"),
+    url("../fonts/Kazimir-LightItalic.woff") format("woff"),
+    url("../fonts/Kazimir-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Kazimir";
+  src: url("../fonts/Kazimir-Bold.eot");
+  src: local("Kazimir Bold"), local("Kazimir-Bold"),
+    url("../fonts/Kazimir-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Kazimir-Bold.woff2") format("woff2"),
+    url("../fonts/Kazimir-Bold.woff") format("woff"),
+    url("../fonts/Kazimir-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* PT Mono */
+@font-face {
+  font-family: "PT Mono";
+  src: url("PTMono-Regular.eot");
+  src: local("PT Mono"), local("PTMono-Regular"),
+    url("PTMono-Regular.eot?#iefix") format("embedded-opentype"),
+    url("PTMono-Regular.woff2") format("woff2"),
+    url("PTMono-Regular.woff") format("woff"),
+    url("PTMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Свадьба Юли и Артура</title>
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/timer.css" />
+    <link rel="stylesheet" href="./css/map.css" />
+    <link rel="stylesheet" href="./css/dress.css" />
+    <link rel="stylesheet" href="./css/circles.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="my-container">
+      <ul class="menu">
+        <li class="menu-block">
+          <a href="#" class="menu-block-link">Программа дня</a>
+        </li>
+        <li class="menu-block">
+          <a href="#" class="menu-block-link">Роспись</a>
+        </li>
+        <li class="menu-block">
+          <a href="#" class="menu-block-link">Дресскод</a>
+        </li>
+        <li class="menu-block">
+          <a href="#" class="menu-block-link">Частые вопросы</a>
+        </li>
+        <li class="menu-block">
+          <a href="#" class="menu-block-link">Банкет</a>
+        </li>
+        <li class="menu-block">
+          <a href="#" class="menu-block-link">О формате</a>
+        </li>
+      </ul>
+    </div>
+    <header>
+      <div class="my-container">
+        <div class="timer">
+          <div class="timer__items">
+            <div class="timer__item timer__days">00</div>
+            <div class="timer__item timer__hours">00</div>
+            <div class="timer__item timer__minutes">00</div>
+            <div class="timer__item timer__seconds">00</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="map section-mt">
+      <div class="title-flex-block my-container">
+        <h3 class="title">церемония</h3>
+        <div class="title-flex-block-line"></div>
+        <h3 class="title">16:20</h3>
+        <div class="title-flex-block-line"></div>
+        <h3 class="descr">Первый ЗАГС<br />на Английской <br />набережной</h3>
+      </div>
+      <iframe
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa1f6da55f6c72c28516fdaa54e7146568c07bc7794ddd17b873c2ce3f1350720&amp;source=constructor"
+        frameborder="0"
+      ></iframe>
+    </section>
+
+    <section class="map section-mt">
+      <div class="title-flex-block my-container">
+        <h3 class="title">банкет</h3>
+        <div class="title-flex-block-line"></div>
+        <h3 class="title">17:30</h3>
+        <div class="title-flex-block-line"></div>
+        <h3 class="descr">Бар «Раскольников»</h3>
+      </div>
+      <iframe
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad8bb9a3670c3991a0eb73935777c976101e728083b5dd52b63c1e1f403f00ea1&amp;source=constructor"
+        frameborder="0"
+      ></iframe>
+    </section>
+
+    <section class="section-mt dress">
+      <div class="my-container">
+        <h3 class="title text-center">дресскод</h3>
+        <div class="dress__circles">
+          <div class="dress__circle main-bg-color"></div>
+          <div class="dress__circle bg-white"></div>
+          <div class="dress__circle bg-cream"></div>
+          <div class="dress__circle bg-black"></div>
+        </div>
+      </div>
+      <table class="dress__collage little-mt">
+        <tbody>
+          <tr>
+            <td
+              style="background: url(./img/dress/1.png) center/cover no-repeat"
+            >
+              <img src="./img/dress/1.png" alt="" />
+            </td>
+            <td
+              style="background: url(./img/dress/2.png) center/cover no-repeat"
+            >
+              <img src="./img/dress/2.png" alt="" />
+            </td>
+            <td
+              style="background: url(./img/dress/5.png) center/cover no-repeat"
+              rowspan="2"
+            >
+              <img src="./img/dress/5.png" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td
+              style="background: url(./img/dress/3.png) center/cover no-repeat"
+            >
+              <img src="./img/dress/3.png" alt="" />
+            </td>
+            <td
+              style="background: url(./img/dress/4.png) center/cover no-repeat"
+            >
+              <img src="./img/dress/4.png" alt="" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <footer class="section-mt footer">
+      <script src="./js/timer.js"></script>
+    </footer>
+  </body>
+</html>

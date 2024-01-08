@@ -1,0 +1,42 @@
+:root {
+  --timer-size: 166px;
+  --margin-timer-block: 15px;
+}
+.timer__items {
+  display: flex;
+  font-size: 48px;
+  gap: calc(var(--margin-timer-block) * 2);
+}
+
+.timer__item {
+  position: relative;
+  min-width: 60px;
+  /* margin-left: var(--margin-timer-block);
+  margin-right: var(--margin-timer-block); */
+  padding-bottom: 15px;
+  text-align: center;
+  border-radius: 30px;
+  background: #bbf3f8;
+  width: var(--timer-size);
+  height: var(--timer-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  font-style: italic;
+}
+
+.timer__item::before {
+  content: attr(data-title);
+  display: block;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.timer__item:not(:last-child)::after {
+  content: ":";
+  position: absolute;
+  right: calc(-1 * var(--margin-timer-block));
+  transform: translateX(50%);
+}

@@ -1,0 +1,51 @@
+:root {
+  --main-little-margin: 60px;
+  --main-color: #89dee5;
+  --section-interval: 200px;
+  --title-size: 89px;
+  --descr-size: 36px;
+}
+* {
+  font-family: Kazimir;
+  line-height: 1;
+}
+.my-container {
+  max-width: 1662px;
+  width: 95%;
+  margin: 0 auto;
+}
+.menu {
+  list-style: none;
+  padding: 45px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-block-link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Kazimir";
+}
+.title {
+  color: var(--main-color);
+  font-size: var(--title-size);
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.descr {
+  font-size: var(--descr-size);
+}
+.section-mt {
+  margin-top: var(--section-interval);
+}
+.little-mt {
+  margin-top: var(--main-little-margin);
+}

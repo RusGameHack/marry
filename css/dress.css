@@ -1,0 +1,38 @@
+:root {
+  --circle-size: 255px;
+}
+.dress__circles {
+  margin-top: var(--main-little-margin);
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.dress__circle {
+  width: var(--circle-size);
+  height: var(--circle-size);
+  border-radius: 100%;
+}
+.dress__circle.main-bg-color {
+  background: #d4fcff;
+}
+.dress__circle.bg-white {
+  border: 1px solid black;
+}
+.dress__circle.bg-cream {
+  background: #f5e4d4;
+}
+.dress__circle.bg-black {
+  background: black;
+}
+.dress__collage {
+  width: 95%;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 25px;
+}
+.dress__collage.little-mt img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
