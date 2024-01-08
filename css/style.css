@@ -1,9 +1,12 @@
 :root {
-  --main-little-margin: 60px;
-  --main-color: #89dee5;
+  --main-little-margin: 108px;
+  --little-margin: 74px;
+  --main-color: #313535;
   --section-interval: 200px;
   --title-size: 89px;
-  --descr-size: 36px;
+  --descr-size: 20px;
+  --descr-title-size: 30px;
+  --descr-color: #313535;
 }
 * {
   font-family: Kazimir;
@@ -14,16 +17,6 @@
   width: 95%;
   margin: 0 auto;
 }
-.menu {
-  list-style: none;
-  padding: 45px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.menu-block-link {
-  text-decoration: none;
-}
 
 h1,
 h2,
@@ -32,6 +25,13 @@ h4,
 h5 {
   font-family: "Kazimir";
 }
+.descr-color {
+  color: var(--descr-color) !important;
+}
+.descr-title {
+  font-size: var(--descr-title-size);
+  font-weight: 500;
+}
 .title {
   color: var(--main-color);
   font-size: var(--title-size);
@@ -39,13 +39,26 @@ h5 {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  line-height: 1;
 }
-.descr {
+.descr,
+.descr-kazimir {
   font-size: var(--descr-size);
+  font-family: "PT Mono";
+}
+.descr-kazimir {
+  font-family: "Kazimir";
 }
 .section-mt {
   margin-top: var(--section-interval);
 }
 .little-mt {
-  margin-top: var(--main-little-margin);
+  margin-top: var(--little-margin);
+}
+.my-container.big-container {
+  max-width: 95dvw;
+}
+.blue-heart {
+  filter: invert(25%) sepia(6%) saturate(5196%) hue-rotate(118deg)
+    brightness(99%) contrast(84%);
 }

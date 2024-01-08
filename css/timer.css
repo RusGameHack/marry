@@ -1,13 +1,23 @@
 :root {
   --timer-size: 166px;
-  --margin-timer-block: 15px;
+  --margin-timer-block: 24px;
+}
+.timer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 90%);
 }
 .timer__items {
   display: flex;
   font-size: 48px;
   gap: calc(var(--margin-timer-block) * 2);
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 39px;
+  background: #fff;
+  padding: 35px 22px;
 }
-
 .timer__item {
   position: relative;
   min-width: 60px;
@@ -16,7 +26,7 @@
   padding-bottom: 15px;
   text-align: center;
   border-radius: 30px;
-  background: #bbf3f8;
+  background: #d6dada;
   width: var(--timer-size);
   height: var(--timer-size);
   display: flex;
@@ -34,9 +44,9 @@
   margin-top: 10px;
 }
 
-.timer__item:not(:last-child)::after {
+/* .timer__item:not(:last-child)::after {
   content: ":";
   position: absolute;
   right: calc(-1 * var(--margin-timer-block));
   transform: translateX(50%);
-}
+} */

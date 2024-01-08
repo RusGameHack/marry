@@ -6,123 +6,471 @@
     <title>Свадьба Юли и Артура</title>
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/timer.css" />
     <link rel="stylesheet" href="./css/map.css" />
     <link rel="stylesheet" href="./css/dress.css" />
     <link rel="stylesheet" href="./css/circles.css" />
+    <link rel="stylesheet" href="./css/program.css" />
+    <link rel="stylesheet" href="./css/hello.css" />
+    <link rel="stylesheet" href="./css/faq.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="my-container">
-      <ul class="menu">
-        <li class="menu-block">
-          <a href="#" class="menu-block-link">Программа дня</a>
-        </li>
-        <li class="menu-block">
-          <a href="#" class="menu-block-link">Роспись</a>
-        </li>
-        <li class="menu-block">
-          <a href="#" class="menu-block-link">Дресскод</a>
-        </li>
-        <li class="menu-block">
-          <a href="#" class="menu-block-link">Частые вопросы</a>
-        </li>
-        <li class="menu-block">
-          <a href="#" class="menu-block-link">Банкет</a>
-        </li>
-        <li class="menu-block">
-          <a href="#" class="menu-block-link">О формате</a>
-        </li>
-      </ul>
+    <div class="menu my-container">
+      <div class="menu-block">
+        <a href="#" class="menu-block-link">Программа дня</a>
+      </div>
+      <div class="menu-block">
+        <a href="#" class="menu-block-link">Роспись</a>
+      </div>
+      <div class="menu-block">
+        <a href="#" class="menu-block-link">Дресскод</a>
+      </div>
+      <div class="menu-block">
+        <a href="#" class="menu-block-link">Частые вопросы</a>
+      </div>
+      <div class="menu-block">
+        <a href="#" class="menu-block-link">Банкет</a>
+      </div>
+      <div class="menu-block">
+        <a href="#" class="menu-block-link">О формате</a>
+      </div>
+      <div class="menu-block">
+        <a href="#" class="menu-block-link">Анкета</a>
+      </div>
     </div>
-    <header>
+    <header
+      style="
+        background: url('./img/header/header_bg.jpg') center/cover no-repeat;
+      "
+    >
       <div class="my-container">
-        <div class="timer">
-          <div class="timer__items">
-            <div class="timer__item timer__days">00</div>
-            <div class="timer__item timer__hours">00</div>
-            <div class="timer__item timer__minutes">00</div>
-            <div class="timer__item timer__seconds">00</div>
+        <div class="header-absolute-block">
+          <img
+            class="header-image-text"
+            src="./img/header/text.png"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+          />
+          <h1
+            class="main-title text-center"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+          >
+            27.07.2024
+            <img class="main-title-icon" src="./icons/heart.svg" />
+          </h1>
+        </div>
+      </div>
+      <div class="timer">
+        <div class="timer__items">
+          <div
+            class="timer__item timer__days"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-offset="100"
+            data-aos-duration="500"
+          >
+            00
+          </div>
+          <div
+            class="timer__item timer__hours"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-offset="100"
+            data-aos-duration="700"
+          >
+            00
+          </div>
+          <div
+            class="timer__item timer__minutes"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-offset="100"
+            data-aos-duration="900"
+          >
+            00
+          </div>
+          <div
+            class="timer__item timer__seconds"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-offset="100"
+            data-aos-duration="1100"
+          >
+            00
           </div>
         </div>
       </div>
     </header>
+    <section class="hello">
+      <div class="my-container big-container d-flex justify-content-between">
+        <div class="hello-left">
+          <img class="hello-friends" src="./img/hello/friends.png" alt="" />
+          <div class="descr mt-3">
+            Приглашаем вас разделить вместе с нами этот счастливый день,
+            к которому мы шли пять лет. Для нас он очень важен, поэтому,
+            если вы получили приглашение, то занимаете особое место в нашей
+            жизни.
+          </div>
+          <img class="hello-we" src="./img/hello/we.png" alt="" />
+        </div>
+        <div class="hello-right">
+          <div class="d-flex">
+            <img class="hello-july" src="./img/hello/july.png" alt="" />
+            <div class="descr hello-descr">
+              Увидимся на свадьбе! <br />Обнимаем:)
+            </div>
+          </div>
+          <div class="d-flex mt-1">
+            <img class="hello-artur" src="./img/hello/artur.png" alt="" />
+            <img class="hello-we2" src="./img/hello/we2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="program-day section-mt">
+      <div class="program-day-title title text-center">
+        программа нашего дня
+      </div>
+      <div class="descr-title text-center mt-5">27 июля 2024 г.</div>
+      <div class="descr text-center program-day-descr-title">
+        Программа построена так, чтобы всем было удобно. У вас утро не начнётся
+        с раннего подьёма, а мы успеем уделить время друг другу в первой
+        половине дня.
+      </div>
+      <div class="program-blocks">
+        <div class="program-block">
+          <div class="program-block-time title descr-color">15:40</div>
+          <div class="program-heart">
+            <img src="./icons/heart.svg" alt="" />
+          </div>
+          <div class="program-block-text">
+            <div class="program-block-title descr-title">
+              Сборы гостей у ЗАГСА
+            </div>
+            <div class="program-block-descr descr descr-kazimir">
+              Санкт-Петербург, Английская набережная, д.28
+            </div>
+          </div>
+        </div>
+        <div class="program-block">
+          <div class="program-block-time title descr-color">16:20</div>
+          <div class="program-heart">
+            <img src="./icons/heart.svg" alt="" />
+          </div>
+          <div class="program-block-text">
+            <div class="program-block-title descr-title">Роспись в ЗАГС</div>
+          </div>
+        </div>
+        <div class="program-block">
+          <div class="program-block-time title descr-color">17:30</div>
+          <div class="program-heart">
+            <img src="./icons/heart.svg" alt="" />
+          </div>
+          <div class="program-block-text">
+            <div class="program-block-title descr-title">Камерный ужин</div>
+            <div class="program-block-descr descr-kazimir">
+              Бар «Раскольников» Владимирский просп., 19 (этаж 7)
+            </div>
+          </div>
+        </div>
+        <div class="program-block">
+          <div class="program-block-time title descr-color">22:30</div>
+          <div class="program-heart">
+            <img src="./icons/heart.svg" alt="" />
+          </div>
+          <div class="program-block-text">
+            <div class="program-block-title descr-title">
+              Завершение вечера <br />с бенгальскими огнями
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="map section-mt">
-      <div class="title-flex-block my-container">
+      <div
+        class="title-flex-block my-container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
         <h3 class="title">церемония</h3>
         <div class="title-flex-block-line"></div>
         <h3 class="title">16:20</h3>
         <div class="title-flex-block-line"></div>
-        <h3 class="descr">Первый ЗАГС<br />на Английской <br />набережной</h3>
+        <h3 class="descr descr-kazimir">
+          Первый ЗАГС<br />на Английской <br />набережной
+        </h3>
       </div>
-      <iframe
-        src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa1f6da55f6c72c28516fdaa54e7146568c07bc7794ddd17b873c2ce3f1350720&amp;source=constructor"
-        frameborder="0"
-      ></iframe>
+      <div class="my-container big-container">
+        <img class="map-image" src="./img/map/1.png" alt="" />
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa1f6da55f6c72c28516fdaa54e7146568c07bc7794ddd17b873c2ce3f1350720&amp;source=constructor"
+          frameborder="0"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        ></iframe>
+      </div>
     </section>
 
     <section class="map section-mt">
-      <div class="title-flex-block my-container">
+      <div
+        class="title-flex-block my-container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
         <h3 class="title">банкет</h3>
         <div class="title-flex-block-line"></div>
         <h3 class="title">17:30</h3>
         <div class="title-flex-block-line"></div>
-        <h3 class="descr">Бар «Раскольников»</h3>
+        <h3 class="descr descr-kazimir">Бар «Раскольников»</h3>
       </div>
-      <iframe
-        src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad8bb9a3670c3991a0eb73935777c976101e728083b5dd52b63c1e1f403f00ea1&amp;source=constructor"
-        frameborder="0"
-      ></iframe>
+      <div class="my-container big-container">
+        <img class="map-image" src="./img/map/2.png" alt="" />
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad8bb9a3670c3991a0eb73935777c976101e728083b5dd52b63c1e1f403f00ea1&amp;source=constructor"
+          frameborder="0"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        ></iframe>
+      </div>
     </section>
 
     <section class="section-mt dress">
       <div class="my-container">
-        <h3 class="title text-center">дресскод</h3>
+        <h3
+          class="title text-center"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          дресскод
+        </h3>
         <div class="dress__circles">
-          <div class="dress__circle main-bg-color"></div>
-          <div class="dress__circle bg-white"></div>
-          <div class="dress__circle bg-cream"></div>
-          <div class="dress__circle bg-black"></div>
+          <!-- <div
+            class="dress__circle main-bg-color"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-offset="100"
+            data-aos-duration="400"
+          ></div> -->
+          <div
+            class="dress__circle bg-white"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-offset="100"
+            data-aos-duration="600"
+          ></div>
+          <div
+            class="dress__circle bg-cream"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-offset="100"
+            data-aos-duration="800"
+          ></div>
+          <div
+            class="dress__circle bg-black"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          ></div>
         </div>
       </div>
-      <table class="dress__collage little-mt">
-        <tbody>
-          <tr>
-            <td
-              style="background: url(./img/dress/1.png) center/cover no-repeat"
-            >
-              <img src="./img/dress/1.png" alt="" />
-            </td>
-            <td
-              style="background: url(./img/dress/2.png) center/cover no-repeat"
-            >
-              <img src="./img/dress/2.png" alt="" />
-            </td>
-            <td
-              style="background: url(./img/dress/5.png) center/cover no-repeat"
-              rowspan="2"
-            >
-              <img src="./img/dress/5.png" alt="" />
-            </td>
-          </tr>
-          <tr>
-            <td
-              style="background: url(./img/dress/3.png) center/cover no-repeat"
-            >
-              <img src="./img/dress/3.png" alt="" />
-            </td>
-            <td
-              style="background: url(./img/dress/4.png) center/cover no-repeat"
-            >
-              <img src="./img/dress/4.png" alt="" />
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="descr little-mt text-center">
+        Большая просьба подойти с уважением <br />
+        к дресс-коду, для нас это важно. Белый <br />
+        и чёрный найдутся у каждого в гардеробе:)
+      </div>
+      <div class="dress__collage little-mt">
+        <div class="dress__collage-little">
+          <img
+            src="./img/dress/1.png"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="500"
+            alt=""
+          />
+          <img
+            src="./img/dress/2.png"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="800"
+            alt=""
+          />
+          <img
+            src="./img/dress/3.png"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1100"
+            alt=""
+          />
+          <img
+            src="./img/dress/4.png"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500"
+            alt=""
+          />
+        </div>
+        <div class="dress__collage-big">
+          <img
+            src="./img/dress/5.png"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1800"
+            alt=""
+          />
+        </div>
+
+        <!-- <img src="./img/dress/group.png" alt="" style="max-width: 100%" /> -->
+      </div>
     </section>
+    <section class="section-mt ladies">
+      <div class="my-container big-container">
+        <h3
+          class="title text-center"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          девушкам
+        </h3>
+        <div class="descr little-mt text-center">
+          Прекрасные девушки! Очень прошу не приходить в белом платье.
+          <br />Вы можете комбинировать белый и чёрный в своих образах.
+          Например, <br />совместить белый пиджак и чёрный атласный топ,
+          или взять платье <br />чёрного или бежевого цвета.
+        </div>
+        <img
+          src="./icons/heart.svg"
+          alt=""
+          class="blue-heart mx-auto d-block mt-4"
+        />
+        <div class="little-mt d-flex justify-content-between">
+          <img
+            src="./img/dress/ladies/1.png"
+            alt=""
+            class="dress-ladies-image"
+          />
+          <img
+            src="./img/dress/ladies/2.png"
+            alt=""
+            class="dress-ladies-image"
+          />
+          <img
+            src="./img/dress/ladies/3.png"
+            alt=""
+            class="dress-ladies-image"
+          />
+        </div>
+        <div class="mt-5 d-flex justify-content-between">
+          <div class="check-block">
+            <img src="./icons/check.svg" alt="" class="check" />
+          </div>
+          <div class="check-block">
+            <img src="./icons/nocheck.svg" alt="" class="check" />
+          </div>
+          <div class="check-block">
+            <img src="./icons/check.svg" alt="" class="check" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-mt faq">
+      <div class="my-container big-container">
+        <h3
+          class="title text-center"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          вопросы к нам
+        </h3>
+        <div class="faq-block">
+          <div
+            class="faq-title d-flex align-items-center"
+            onclick="activeFAQ(this)"
+          >
+            <img class="faq-title-icon" src="./icons/plus.svg" alt="" />
+            <span class="faq-title-text descr-title"
+              >Какие подарки предпочтительны?</span
+            >
+          </div>
+          <div class="faq-answer descr">
+            Для нас лучший подарок — это деньги, т.к мы копим на свадебное
+            путешествие. Сервиз, постельное белье, домашнюю утварь
+            мы хотели бы выбрать сами по своим вкусовым предпочтениям.
+            Также большая просьба не приносить цветы, вместо них можно дарить
+            вино. Но если вы хотите устроить нам сюрприз — можете посоветоваться
+            насчёт подарка с нашим свадебным организатором Елизаветой.
+          </div>
+        </div>
+        <div class="faq-block">
+          <div
+            class="faq-title d-flex align-items-center"
+            onclick="activeFAQ(this)"
+          >
+            <img class="faq-title-icon" src="./icons/plus.svg" alt="" />
+            <span class="faq-title-text descr-title"
+              >Кому задать вопросы насчёт мероприятия и сюрпризов?</span
+            >
+          </div>
+          <div class="faq-answer descr">
+            Наш свадебный организатор — Елизавета с радостью ответит на ваши
+            вопросы в день мероприятия и за несколько дней до него. Просьба,
+            не беспокоить по пустякам. Её номер телефона: +7 (ххх) ххх-хх-хх.
+          </div>
+        </div>
+        <div class="faq-block">
+          <div
+            class="faq-title d-flex align-items-center"
+            onclick="activeFAQ(this)"
+          >
+            <img class="faq-title-icon" src="./icons/plus.svg" alt="" />
+            <span class="faq-title-text descr-title"
+              >Куда выкладывать фотографии и видео, сделанные на свадьбе?</span
+            >
+          </div>
+          <div class="faq-answer descr">
+            Приглашаем вступить всех в наш свадбеный чат в телеграм, куда
+            вы можете в прямом эфире записывать видеосообщения, выкладывать
+            фотографии и голосовые поздравления. Для нас — это огромная память.
+            Также в этом чате за несколько дней будет находится вся
+            организационная информация. Ссылка на чат:
+            https://t.me/+-3y2xg2u4S45MjRi
+          </div>
+        </div>
+        <div class="faq-block">
+          <div
+            class="faq-title d-flex align-items-center"
+            onclick="activeFAQ(this)"
+          >
+            <img class="faq-title-icon" src="./icons/plus.svg" alt="" />
+            <span class="faq-title-text descr-title"
+              >Могу ли я взять с собой детей?</span
+            >
+          </div>
+          <div class="faq-answer descr">
+            Мероприятие рассчитано на взрослую аудиторию и некоторые моменты
+            могут показаться для маленьких детей утомительными. Мы переживаем о
+            комфорте каждого гостя и хотим, чтобы все отдохнули душой на нашем
+            празднике. Однако, если по каким-то причинам не получается оставить
+            детей младше семи лет дома, то огромная просьба обговорить этот
+            момент с нами заранее, за несколько месяцев и поставить в
+            известность, чтобы скорректировать программу дня.
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer class="section-mt footer">
       <script src="./js/timer.js"></script>
+      <script src="./js/maxSize.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="./js/aos.js"></script>
+      <script src="./js/faq.js"></script>
     </footer>
   </body>
 </html>

@@ -1,0 +1,27 @@
+header {
+  min-height: 100dvh;
+  position: relative;
+}
+.header-absolute-block {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main-title {
+  position: relative;
+  margin-top: 36px;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 163px;
+  line-height: 1;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.main-title-icon {
+  position: absolute;
+  top: -7px;
+  left: 52%;
+  transform: translateX(-50%);
+}
