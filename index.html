@@ -42,6 +42,10 @@
         <a href="#" class="menu-block-link">Анкета</a>
       </div>
     </div>
+    <div class="burger-button">
+      <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+      <label for="burger-checkbox" class="burger" onclick="activeMenu(this)">
+    </div>
     <header
       style="
         background: url('./img/header/header_bg.jpg') center/cover no-repeat;
@@ -71,7 +75,6 @@
             class="timer__item timer__days"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-offset="100"
             data-aos-duration="500"
           >
             00
@@ -80,7 +83,6 @@
             class="timer__item timer__hours"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-offset="100"
             data-aos-duration="700"
           >
             00
@@ -89,7 +91,6 @@
             class="timer__item timer__minutes"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-offset="100"
             data-aos-duration="900"
           >
             00
@@ -98,7 +99,6 @@
             class="timer__item timer__seconds"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-offset="100"
             data-aos-duration="1100"
           >
             00
@@ -116,7 +116,7 @@
             если вы получили приглашение, то занимаете особое место в нашей
             жизни.
           </div>
-          <img class="hello-we" src="./img/hello/we.png" alt="" />
+          <img class="hello-we desctop" src="./img/hello/we.png" alt="" />
         </div>
         <div class="hello-right">
           <div class="d-flex">
@@ -131,6 +131,7 @@
           </div>
         </div>
       </div>
+      <img class="hello-we mobile" src="./img/hello/we.png" alt="" />
     </section>
     <section class="program-day section-mt">
       <div class="program-day-title title text-center">
@@ -143,7 +144,12 @@
         половине дня.
       </div>
       <div class="program-blocks">
-        <div class="program-block">
+        <div
+          class="program-block"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="600"
+        >
           <div class="program-block-time title descr-color">15:40</div>
           <div class="program-heart">
             <img src="./icons/heart.svg" alt="" />
@@ -157,7 +163,12 @@
             </div>
           </div>
         </div>
-        <div class="program-block">
+        <div
+          class="program-block"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="600"
+        >
           <div class="program-block-time title descr-color">16:20</div>
           <div class="program-heart">
             <img src="./icons/heart.svg" alt="" />
@@ -166,19 +177,29 @@
             <div class="program-block-title descr-title">Роспись в ЗАГС</div>
           </div>
         </div>
-        <div class="program-block">
+        <div
+          class="program-block"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="600"
+        >
           <div class="program-block-time title descr-color">17:30</div>
           <div class="program-heart">
             <img src="./icons/heart.svg" alt="" />
           </div>
           <div class="program-block-text">
             <div class="program-block-title descr-title">Камерный ужин</div>
-            <div class="program-block-descr descr-kazimir">
+            <div class="program-block-descr descr descr-kazimir">
               Бар «Раскольников» Владимирский просп., 19 (этаж 7)
             </div>
           </div>
         </div>
-        <div class="program-block">
+        <div
+          class="program-block"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="600"
+        >
           <div class="program-block-time title descr-color">22:30</div>
           <div class="program-heart">
             <img src="./icons/heart.svg" alt="" />
@@ -201,19 +222,28 @@
         <h3 class="title">церемония</h3>
         <div class="title-flex-block-line"></div>
         <h3 class="title">16:20</h3>
-        <div class="title-flex-block-line"></div>
+        <div class="title-flex-block-line second"></div>
         <h3 class="descr descr-kazimir">
           Первый ЗАГС<br />на Английской <br />набережной
         </h3>
       </div>
       <div class="my-container big-container">
         <img class="map-image" src="./img/map/1.png" alt="" />
-        <iframe
-          src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa1f6da55f6c72c28516fdaa54e7146568c07bc7794ddd17b873c2ce3f1350720&amp;source=constructor"
-          frameborder="0"
+        <div
+          class="position-relative"
           data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom"
-        ></iframe>
+        >
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad8bb9a3670c3991a0eb73935777c976101e728083b5dd52b63c1e1f403f00ea1&amp;source=constructor"
+            frameborder="0"
+          ></iframe>
+          <div class="map-stop" onclick="mapStop(this)">
+            <div class="map-stop-text descr-title">
+              Нажмите, чтобы посмотреть отметку
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -226,17 +256,26 @@
         <h3 class="title">банкет</h3>
         <div class="title-flex-block-line"></div>
         <h3 class="title">17:30</h3>
-        <div class="title-flex-block-line"></div>
+        <div class="title-flex-block-line second"></div>
         <h3 class="descr descr-kazimir">Бар «Раскольников»</h3>
       </div>
       <div class="my-container big-container">
         <img class="map-image" src="./img/map/2.png" alt="" />
-        <iframe
-          src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad8bb9a3670c3991a0eb73935777c976101e728083b5dd52b63c1e1f403f00ea1&amp;source=constructor"
-          frameborder="0"
+        <div
+          class="position-relative"
           data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom"
-        ></iframe>
+        >
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa1f6da55f6c72c28516fdaa54e7146568c07bc7794ddd17b873c2ce3f1350720&amp;source=constructor"
+            frameborder="0"
+          ></iframe>
+          <div class="map-stop" onclick="mapStop(this)">
+            <div class="map-stop-text descr-title">
+              Нажмите, чтобы посмотреть отметку
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -254,28 +293,24 @@
             class="dress__circle main-bg-color"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-offset="100"
             data-aos-duration="400"
           ></div> -->
           <div
             class="dress__circle bg-white"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-offset="100"
             data-aos-duration="600"
           ></div>
           <div
             class="dress__circle bg-cream"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-offset="100"
             data-aos-duration="800"
           ></div>
           <div
             class="dress__circle bg-black"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-offset="100"
             data-aos-duration="1000"
           ></div>
         </div>
@@ -289,39 +324,39 @@
         <div class="dress__collage-little">
           <img
             src="./img/dress/1.png"
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="500"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="100"
             alt=""
           />
           <img
             src="./img/dress/2.png"
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="800"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="300"
             alt=""
           />
           <img
             src="./img/dress/3.png"
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="1100"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="500"
             alt=""
           />
           <img
             src="./img/dress/4.png"
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="1500"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="700"
             alt=""
           />
         </div>
         <div class="dress__collage-big">
           <img
             src="./img/dress/5.png"
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="1800"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="900"
             alt=""
           />
         </div>
@@ -354,27 +389,57 @@
             src="./img/dress/ladies/1.png"
             alt=""
             class="dress-ladies-image"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="600"
           />
           <img
             src="./img/dress/ladies/2.png"
             alt=""
             class="dress-ladies-image"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="900"
           />
           <img
             src="./img/dress/ladies/3.png"
             alt=""
             class="dress-ladies-image"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="1200"
           />
         </div>
         <div class="mt-5 d-flex justify-content-between">
           <div class="check-block">
-            <img src="./icons/check.svg" alt="" class="check" />
+            <img
+              src="./icons/check.svg"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="1500"
+              alt=""
+              class="check"
+            />
           </div>
           <div class="check-block">
-            <img src="./icons/nocheck.svg" alt="" class="check" />
+            <img
+              src="./icons/nocheck.svg"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="1800"
+              alt=""
+              class="check"
+            />
           </div>
           <div class="check-block">
-            <img src="./icons/check.svg" alt="" class="check" />
+            <img
+              src="./icons/check.svg"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-duration="2100"
+              alt=""
+              class="check"
+            />
           </div>
         </div>
       </div>
@@ -400,11 +465,13 @@
           </div>
           <div class="faq-answer descr">
             Для нас лучший подарок — это деньги, т.к мы копим на свадебное
-            путешествие. Сервиз, постельное белье, домашнюю утварь
-            мы хотели бы выбрать сами по своим вкусовым предпочтениям.
-            Также большая просьба не приносить цветы, вместо них можно дарить
-            вино. Но если вы хотите устроить нам сюрприз — можете посоветоваться
-            насчёт подарка с нашим свадебным организатором Елизаветой.
+            путешествие. <br />
+            Сервиз, постельное белье, домашнюю утварь мы хотели бы выбрать сами
+            по своим <br />
+            вкусовым предпочтениям. Также большая просьба не приносить цветы,
+            вместо <br />них можно дарить вино. Но если вы хотите устроить
+            нам сюрприз — можете <br />посоветоваться насчёт подарка с нашим
+            свадебным организатором Елизаветой.
           </div>
         </div>
         <div class="faq-block">
@@ -419,8 +486,10 @@
           </div>
           <div class="faq-answer descr">
             Наш свадебный организатор — Елизавета с радостью ответит на ваши
-            вопросы в день мероприятия и за несколько дней до него. Просьба,
-            не беспокоить по пустякам. Её номер телефона: +7 (ххх) ххх-хх-хх.
+            вопросы <br />
+            в день мероприятия и за несколько дней до него. Просьба,
+            не беспокоить <br />
+            по пустякам. Её номер телефона: +7 (ххх) ххх-хх-хх.
           </div>
         </div>
         <div class="faq-block">
@@ -435,11 +504,13 @@
           </div>
           <div class="faq-answer descr">
             Приглашаем вступить всех в наш свадбеный чат в телеграм, куда
-            вы можете в прямом эфире записывать видеосообщения, выкладывать
-            фотографии и голосовые поздравления. Для нас — это огромная память.
-            Также в этом чате за несколько дней будет находится вся
-            организационная информация. Ссылка на чат:
-            https://t.me/+-3y2xg2u4S45MjRi
+            вы можете <br />
+            в прямом эфире записывать видеосообщения, выкладывать фотографии
+            и голосовые <br />
+            поздравления. Для нас — это огромная память. Также в этом чате за
+            несколько <br />
+            дней будет находится вся организационная информация. <br /><br />
+            Ссылка на чат: https://t.me/+-3y2xg2u4S45MjRi
           </div>
         </div>
         <div class="faq-block">
@@ -454,12 +525,14 @@
           </div>
           <div class="faq-answer descr">
             Мероприятие рассчитано на взрослую аудиторию и некоторые моменты
-            могут показаться для маленьких детей утомительными. Мы переживаем о
-            комфорте каждого гостя и хотим, чтобы все отдохнули душой на нашем
-            празднике. Однако, если по каким-то причинам не получается оставить
-            детей младше семи лет дома, то огромная просьба обговорить этот
-            момент с нами заранее, за несколько месяцев и поставить в
-            известность, чтобы скорректировать программу дня.
+            могут <br />показаться для маленьких детей утомительными. Мы
+            переживаем о комфорте <br />каждого гостя и хотим, чтобы все
+            отдохнули душой на нашем празднике. Однако, <br />если по каким-то
+            причинам не получается оставить детей младше семи лет дома, <br />то
+            огромная просьба обговорить этот момент с нами заранее, за
+            несколько<br />
+            месяцев и поставить в известность, чтобы скорректировать программу
+            дня.
           </div>
         </div>
       </div>
@@ -471,6 +544,8 @@
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="./js/aos.js"></script>
       <script src="./js/faq.js"></script>
+      <script src="./js/map.js"></script>
+      <script src="./js/menu.js"></script>
     </footer>
   </body>
 </html>

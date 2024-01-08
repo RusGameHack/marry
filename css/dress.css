@@ -1,6 +1,7 @@
 :root {
   --circle-size: 255px;
   --ladies-image-size: 32.8%;
+  --max-height-photo: 69.225vh;
 }
 .dress__circles {
   margin-top: var(--main-little-margin);
@@ -32,7 +33,7 @@
   border-spacing: 25px;
   display: flex;
   justify-content: space-between;
-  max-height: 911px;
+  max-height: var(--max-height-photo);
 }
 .dress__collage-little {
   width: calc(55% - 11px);
@@ -54,6 +55,7 @@
 .dress__collage-big img {
   object-fit: cover;
   width: 100%;
+  height: var(--max-height-photo);
 }
 
 .dress-ladies-image {
@@ -67,4 +69,38 @@
 .check {
   display: block;
   margin: 0 auto;
+}
+@media (min-width: 1920px) {
+  :root {
+    --max-height-photo: 70vh;
+  }
+}
+@media (max-width: 1240px) {
+  .dress-ladies-image {
+    height: 500px;
+  }
+}
+@media (max-width: 1024px) {
+  :root {
+    --max-height-photo: unset;
+  }
+  .dress__collage-little,
+  .dress__collage-big {
+    width: 100%;
+  }
+  .dress__collage {
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+  :root {
+    --circle-size: 150px;
+  }
+  .dress-ladies-image {
+    height: 350px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --circle-size: 80px;
+  }
 }

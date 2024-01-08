@@ -62,3 +62,40 @@ h5 {
   filter: invert(25%) sepia(6%) saturate(5196%) hue-rotate(118deg)
     brightness(99%) contrast(84%);
 }
+body.hidden {
+  overflow: hidden;
+}
+
+@media (max-width: 1240px) {
+  :root {
+    --main-little-margin: 82px;
+    --little-margin: 54px;
+    --section-interval: 150px;
+    --title-size: 72px;
+    --descr-size: 16px;
+    --descr-title-size: 24px;
+  }
+}
+@media (max-width: 1024px) {
+  :root {
+    --main-little-margin: 72px;
+    --little-margin: 50px;
+    --section-interval: 124px;
+    --title-size: 65px;
+    --descr-size: 16px;
+    --descr-title-size: 22px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --title-size: 27px;
+
+    --descr-size: 13px;
+    --descr-title-size: 16px;
+    --section-interval: 77px;
+    --main-little-margin: 24px;
+  }
+  .my-container.big-container {
+    max-width: 90dvw;
+  }
+}

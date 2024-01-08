@@ -46,3 +46,35 @@
 .program-day .descr {
   margin-top: 24px;
 }
+@media (max-width: 1240px) {
+  .program-heart {
+    margin: 0 120px 0 90px;
+  }
+  :root {
+    --program-block-margin-size: 85px;
+    --margin-top-blocks-program: 50px;
+  }
+  .program-blocks {
+    max-width: 755px;
+  }
+}
+@media (max-width: 768px) {
+  .program-heart {
+    margin: 0 40px;
+  }
+  .program-heart img {
+    width: 10px;
+    height: 10px;
+  }
+  .program-day .descr {
+    margin-top: 13px;
+  }
+  :root {
+    --program-block-margin-size: 70px;
+    --margin-top-blocks-program: 50px;
+  }
+  .program-blocks {
+    max-width: 310px;
+    margin: 80px auto 0;
+  }
+}

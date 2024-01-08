@@ -48,3 +48,12 @@ document.addEventListener("DOMContentLoaded", function () {
   // вызываем функцию countdownTimer каждую секунду
   timerId = setInterval(countdownTimer, 1000);
 });
+let maxHeight = 0;
+const timerBlocks = document.querySelectorAll(".timer__item");
+timerBlocks.forEach((block) => {
+  const width = block.getBoundingClientRect().width;
+  maxHeight = maxHeight < width ? width : maxHeight;
+});
+timerBlocks.forEach((block) => {
+  block.style.height = `${maxHeight}px`;
+});

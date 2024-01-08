@@ -25,3 +25,25 @@ header {
   left: 52%;
   transform: translateX(-50%);
 }
+@media (max-width: 1024px) {
+  .header-image-text {
+    width: 100%;
+  }
+  .main-title {
+    font-size: 125px;
+  }
+}
+@media (max-width: 768px) {
+  h1.main-title {
+    font-size: 65.069px;
+  }
+  .main-title-icon {
+    position: absolute;
+    top: -20px;
+    left: 52%;
+    transform: translateX(-50%);
+  }
+  .header-absolute-block {
+    bottom: 10%;
+  }
+}

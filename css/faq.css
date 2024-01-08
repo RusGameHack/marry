@@ -14,9 +14,6 @@
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
   transition: 0.3s all;
 }
-.faq-answer {
-  width: 50%;
-}
 .faq-title.active .faq-title-icon {
   clip-path: polygon(0% 45%, 100% 45%, 100% 55%, 0% 55%);
 }
@@ -32,4 +29,5 @@
 }
 .faq-block {
   margin-top: 118px;
+  height: 207px;
 }
