@@ -1,5 +1,5 @@
 .footer {
-  min-height: 100dvh;
+  min-height: 100vh;
   position: relative;
   background: url(../img/footer/background.png), lightgray 50% / cover no-repeat;
   mix-blend-mode: luminosity;
@@ -41,8 +41,8 @@
 }
 @media (max-width: 768px) {
   .footer {
-    min-height: 100dvh;
-    height: 100dvh;
+    min-height: 100vh;
+    height: 100vh;
   }
   .footer-links-container {
     flex-direction: column-reverse;
@@ -74,8 +74,8 @@
 }
 @media (max-width: 540px) {
   .footer {
-    min-height: 100dvh;
-    height: 100dvh;
+    min-height: 100vh;
+    height: 100vh;
     background: url(../img/footer/background-mobile.png) lightgray 50% / cover
       no-repeat;
   }
