@@ -34,7 +34,7 @@
 
 @media (max-width: 768px) {
   .faq-block {
-    margin-top: 20px;
+    margin-top: 30px;
     /* height: 270px; */
   }
   .faq-title-icon {
@@ -45,5 +45,8 @@
   .faq-title {
     padding: 15px;
     margin-bottom: 15px;
+  }
+  .faq-answer.descr {
+    max-width: 288px;
   }
 }
