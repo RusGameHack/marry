@@ -70,6 +70,9 @@
   display: block;
   margin: 0 auto;
 }
+.desctop-none {
+  display: none !important;
+}
 @media (min-width: 1920px) {
   :root {
     --max-height-photo: 70vh;
@@ -102,5 +105,28 @@
 @media (max-width: 768px) {
   :root {
     --circle-size: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .check-block img {
+    width: 16px;
+    height: 16px;
+  }
+  .dress-ladies-image {
+    height: 200px;
+  }
+  .mobile-none {
+    display: none !important;
+  }
+  .desctop-none {
+    display: block !important;
+  }
+  .dress-ladies-image {
+    width: 47.5%;
+    margin-top: 14px;
+  }
+  .dress-ladies-image-big {
+    width: 100%;
+    height: 340px;
   }
 }

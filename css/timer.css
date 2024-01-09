@@ -79,4 +79,9 @@
   .timer__item::before {
     font-size: 12.711px;
   }
+  .timer__item {
+    position: relative;
+    min-width: 60px;
+    padding-bottom: 0px;
+  }
 }

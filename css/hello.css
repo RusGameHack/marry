@@ -119,5 +119,29 @@
   .hello-july {
     width: 69px;
     height: 57px;
+    transform: translate(16px, -30px);
+  }
+  .hello-artur {
+    width: 70px;
+    height: 34px;
+  }
+  .hello-descr {
+    margin-top: 0;
+  }
+  .hello-right.desctop-none {
+    display: none;
+  }
+  .hello-right .d-flex.mt-1 {
+    margin-top: 0 !important;
+  }
+  .hello-we2 {
+    width: 103.649px;
+    margin: 0;
+  }
+  .descr.hello-descr {
+    line-height: normal;
+  }
+  .hello-friends {
+    width: 100%;
   }
 }

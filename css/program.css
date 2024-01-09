@@ -77,4 +77,28 @@
     max-width: 310px;
     margin: 80px auto 0;
   }
+  .program-day-title.title.text-center {
+    width: 50%;
+    text-align: left !important;
+    margin-left: 2.5%;
+  }
+  .descr-title.text-center {
+    margin-top: 22px !important;
+    text-align: right !important;
+    margin-right: 2.5%;
+  }
+  .descr.text-center.program-day-descr-title {
+    margin-top: 22px;
+    text-align: left !important;
+    margin-left: 2.5%;
+  }
+  .program-block {
+    align-items: flex-start;
+  }
+  .program-block.aos-init.aos-animate {
+    margin-top: 5px;
+  }
+  .program-block-text {
+    height: 105px;
+  }
 }

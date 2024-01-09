@@ -29,5 +29,21 @@
 }
 .faq-block {
   margin-top: 118px;
-  height: 207px;
+  /* height: 207px; */
+}
+
+@media (max-width: 768px) {
+  .faq-block {
+    margin-top: 20px;
+    /* height: 270px; */
+  }
+  .faq-title-icon {
+    margin-bottom: 0px;
+    margin-right: 15px;
+    height: 15px;
+  }
+  .faq-title {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
 }

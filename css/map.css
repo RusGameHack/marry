@@ -105,4 +105,8 @@
     font-family: "PT Mono";
     margin-top: 16.5px;
   }
+  .map-image,
+  .map iframe {
+    height: 300px;
+  }
 }
