@@ -117,13 +117,12 @@
     margin-top: 54px;
   }
   .hello-july {
-    width: 69px;
-    height: 57px;
-    transform: translate(16px, -30px);
+    width: 90px;
+    transform: translate(0px, -42px);
   }
   .hello-artur {
-    width: 70px;
-    height: 34px;
+    width: 90px;
+    transform: translate(0, 15px);
   }
   .hello-descr {
     margin-top: 0;
@@ -142,7 +141,7 @@
     line-height: normal;
   }
   .hello-friends {
-    width: 100%;
+    width: 75%;
   }
   .hello-left {
     width: 95%;

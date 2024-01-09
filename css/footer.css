@@ -74,15 +74,9 @@
 }
 @media (max-width: 540px) {
   .footer {
-    min-height: 100vh;
-    height: 100vh;
-    background: url(../img/footer/background-mobile.png) lightgray 50% / cover
-      no-repeat;
-  }
-}
-@media (max-width: 350px) {
-  .footer {
     min-height: 420px;
     height: 420px;
+    background: url(../img/footer/background-mobile.png) lightgray 50% / cover
+      no-repeat;
   }
 }
