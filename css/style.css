@@ -107,3 +107,6 @@ body.hidden {
   font-family: PT Mono;
   text-decoration: unset;
 }
+a:hover {
+  color: #01d4c8 !important;
+}
