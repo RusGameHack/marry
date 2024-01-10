@@ -130,3 +130,39 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "NWT Bodoni";
+  src: url("NWTBodoni-Regular.eot");
+  src: local("NWT Bodoni Regular"), local("NWTBodoni-Regular"),
+    url("NWTBodoni-Regular.eot?#iefix") format("embedded-opentype"),
+    url("NWTBodoni-Regular.woff2") format("woff2"),
+    url("NWTBodoni-Regular.woff") format("woff"),
+    url("NWTBodoni-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NWT Bodoni";
+  src: url("NWTBodoni-Bold.eot");
+  src: local("NWT Bodoni Bold"), local("NWTBodoni-Bold"),
+    url("NWTBodoni-Bold.eot?#iefix") format("embedded-opentype"),
+    url("NWTBodoni-Bold.woff2") format("woff2"),
+    url("NWTBodoni-Bold.woff") format("woff"),
+    url("NWTBodoni-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NWT Bodoni";
+  src: url("NWTBodoni-Italic.eot");
+  src: local("NWT Bodoni Italic"), local("NWTBodoni-Italic"),
+    url("NWTBodoni-Italic.eot?#iefix") format("embedded-opentype"),
+    url("NWTBodoni-Italic.woff2") format("woff2"),
+    url("NWTBodoni-Italic.woff") format("woff"),
+    url("NWTBodoni-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
