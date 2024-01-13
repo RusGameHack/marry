@@ -7,6 +7,7 @@
   --descr-size: 20px;
   --descr-title-size: 30px;
   --descr-color: #313535;
+  color-scheme: only light;
 }
 * {
   font-family: Kazimir;
