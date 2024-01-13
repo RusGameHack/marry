@@ -1,5 +1,4 @@
 function activeMenu(block) {
-  console.log("test");
   block.classList.toggle("active");
   document.querySelector(".menu").classList.toggle("active");
   setTimeout(() => {
