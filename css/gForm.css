@@ -121,6 +121,7 @@
     padding: 30px;
   }
   .from-heart-icon img.blue-heart {
+    margin: 0;
     width: 7px;
     transform: translateY(50%);
     right: -12px;
