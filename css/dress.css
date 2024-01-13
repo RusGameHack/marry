@@ -138,3 +138,13 @@
     margin-right: auto;
   }
 }
+@media (max-width: 400px) {
+  :root {
+    --circle-size: 70px;
+  }
+}
+@media (max-width: 360px) {
+  :root {
+    --circle-size: 60px;
+  }
+}
